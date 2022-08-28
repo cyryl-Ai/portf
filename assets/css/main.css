@@ -17,9 +17,9 @@ html {
 }
 
 :root {
-  --main-color: #6ccff6;
+  --main-color: #0c935be5;
   --white-color: #fffffc;
-  --black-color: #021418;
+  --black-color: #021809e1;
   /*------- Font and typography -------*/
   --biggest-font-size: 1.25rem;
   --h1-font-size: 3rem;
@@ -39,7 +39,7 @@ html {
 }
 
 body {
-  background: var(--white-color);
+  background: #ecf2ed;
 }
 
 h1 {
@@ -47,7 +47,7 @@ h1 {
 }
 
 span {
-  color: var(--main-color);
+  color: var(--white-color);
   font-weight: 800;
 }
 
@@ -74,9 +74,9 @@ button {
   font-weight: 600;
   font-size: var(--h4-font-size);
   color: var(--white-color);
-  background: var(--main-color);
+  background: #1d3557;
   border: 0;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -87,8 +87,10 @@ ul {
 }
 
 input {
-  border: 1px solid var(--main-color);
-  border-radius: 6px;
+  border: 2px solid #1b1548;
+  font-family: "Courier";
+  background-color: #c5c9d2;
+  border-radius: 8px;
   padding: 10px;
   font-size: var(--normal-font-size);
   width: 100%;
@@ -105,13 +107,15 @@ form {
 
 /* header with background image */
 .header {
+  background-color: #031329;
   background-size: cover;
   background-position: center;
   height: 30vh;
   display: flex;
+  background-image: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fmcleztest3.com%2Fwp-content%2Fuploads%2F2022%2F05%2F360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg&imgrefurl=https%3A%2F%2Fmcleztest3.com%2F&tbnid=C7NIhcKgIOigfM&vet=1&docid=6WxAIUZIdAGaBM&w=1406&h=360&itg=1&source=sh%2Fx%2Fim';
   align-items: center;
   justify-content: center;
-  background-image: url("../images/dark-cover.png");
+  
   color: var(--white-color);
 }
 

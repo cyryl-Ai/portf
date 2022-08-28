@@ -1,4 +1,4 @@
-pythonimport os
+import os
 import cv2
 from PIL import Image
 import numpy as np

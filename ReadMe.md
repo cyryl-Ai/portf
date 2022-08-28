@@ -146,3 +146,4 @@ python manage.py runserver
 
 - [Twitter](https://twitter.com/itz_omen/)
 - [Youtube](https://www.youtube.com/channel/UCknaAfNfqKQDQFnqP2zMA6A)
+"# portcore" 
