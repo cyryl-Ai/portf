@@ -1,7 +1,7 @@
-absl-py==1.0.0
+absl-py
 asgiref==3.5.2
 astunparse==1.6.3
-backports.zoneinfo==0.2.1
+backports.zoneinfo==0.2.1;python_version<"3.8"
 cachetools==5.1.0
 certifi==2022.5.18.1
 charset-normalizer==2.0.12
@@ -10,7 +10,7 @@ Django==4.0.5
 flatbuffers==1.12
 fonttools==4.33.3
 gast==0.4.0
-google-auth==2.6.6
+google-auth==2.6.6........
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 grpcio==1.46.3
